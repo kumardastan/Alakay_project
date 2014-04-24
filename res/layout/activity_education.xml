@@ -1,0 +1,47 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kz.edu.sdu.project_alakay.Education$PlaceholderFragment" >
+
+   <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/bcg" />
+   
+   	<ImageView 
+   	    android:id="@+id/edu_logo"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="25dp"
+		android:src="@drawable/edu_logo" />
+    
+   	<ImageButton
+   	    android:id="@+id/edu"
+   	    android:layout_width="130dp"
+   	    android:layout_height="35dp"
+   	    android:layout_marginLeft="93dp"
+   	    android:layout_marginTop="235dp"
+  	    android:src="@drawable/edu_letters" />
+   	
+   	<ImageButton 
+   	    android:id="@+id/game"
+   	    android:layout_width="130dp"
+   	    android:layout_height="35dp"
+   	    android:layout_marginLeft="93dp"
+   	    android:layout_marginTop="280dp"
+   	    android:src="@drawable/numbers_edu" />
+   	
+   	
+   	<ImageButton 
+   	    android:id="@+id/fairy"
+   	    android:layout_width="130dp"
+   	    android:layout_height="35dp"
+   	    android:layout_marginLeft="93dp"
+   	    android:layout_marginTop="325dp"
+   	    android:src="@drawable/eu_colors" />
+    
+</FrameLayout>
