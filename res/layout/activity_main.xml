@@ -1,4 +1,4 @@
-<FrameLayout 
+<RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,24 +16,27 @@
    	    android:id="@+id/sun"
         android:layout_width="175dp"
         android:layout_height="175dp"
-		android:layout_gravity="center_horizontal"
-		android:layout_marginTop="25dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginLeft="70dp"
+		android:layout_marginBottom="12dp"
 		android:src="@drawable/sun" />
 
    	<ImageButton
    	    android:id="@+id/edu"
    	    android:layout_width="130dp"
    	    android:layout_height="35dp"
-   	    android:layout_marginLeft="93dp"
-   	    android:layout_marginTop="235dp"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_below="@+id/sun"
+   	    android:layout_marginBottom="12dp"
   	    android:src="@drawable/edu" />
    	
    	<ImageButton 
    	    android:id="@+id/game"
    	    android:layout_width="130dp"
    	    android:layout_height="35dp"
-   	    android:layout_marginLeft="93dp"
-   	    android:layout_marginTop="280dp"
+   	    android:layout_alignLeft="@+id/edu"
+   	    android:layout_below="@+id/edu"
+   	    android:layout_marginBottom="12dp"
    	    android:src="@drawable/games" />
    	
    	
@@ -41,8 +44,9 @@
    	    android:id="@+id/fairy"
    	    android:layout_width="130dp"
    	    android:layout_height="35dp"
-   	    android:layout_marginLeft="93dp"
-   	    android:layout_marginTop="325dp"
+   	    android:layout_alignLeft="@+id/edu"
+   	    android:layout_below="@+id/game"
+   	    
    	    android:src="@drawable/fairy" />
    	
-</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/bcg1" />
+    
+    <TextView 
+        android:id="@+id/oneplusone_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="55sp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="135dp" />
+    
+    <TextView 
+        android:id="@+id/oneplusone_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="55sp"
+        android:layout_alignTop="@+id/oneplusone_first"
+        android:layout_toRightOf="@+id/oneplusone_plus" />
+    
+    <TextView 
+        android:id="@+id/oneplusone_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="55sp"
+        android:layout_toRightOf="@+id/oneplusone_first"
+        android:layout_alignTop="@+id/oneplusone_first" />
+    
+    <TextView 
+        android:id="@+id/oneplusone_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="55sp"
+        android:layout_toRightOf="@+id/oneplusone_second"
+        android:layout_alignTop="@+id/oneplusone_first" />
+    
+    <EditText 
+        android:id="@+id/oneplusone_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="55sp"
+        android:numeric="integer"
+        android:layout_toRightOf="@+id/oneplusone_equal"
+        android:layout_alignTop="@+id/oneplusone_first"
+        android:layout_alignBottom="@+id/oneplusone_first" />
+        
+    
+    
+
+</RelativeLayout>
